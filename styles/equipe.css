@@ -1,0 +1,37 @@
+/*fontes de texto do site*/
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+*{
+    font-family: "Patrick Hand", 'cursive', 'sans-serif';
+    padding: 0;
+    margin: 0;
+}
+
+#divHeader{
+    padding: 16px 40px;
+    display: inline-block;
+    width: 100%;
+}
+
+.logo{
+    width: 2.5rem; /*tamanho do logo*/
+}
+
+#textoLogo{
+    display: inline-block;
+    align-items: center;
+    align-text: center;
+    margin-bottom: 16px;
+    postion: absolute;
+}
+
+.itens_menu{
+    display: inline-block;
+}
+
+.navbar{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
