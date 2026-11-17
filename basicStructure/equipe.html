@@ -10,35 +10,69 @@
     <header>
         <div id="divHeader">
             <!--logo: imagem + nome do grupo-->
-            <img src="../images/logo.jpeg" alt="logo" class="logo"/>
-            <p id="textoLogo">Células e Azeitonas</p>
+            <div id = "div_logo_textoLogo">
+                <!--logo: imagem + nome do grupo-->
+                <img src="../images/logo.jpeg" alt="logo" class="logo"/>
+                <p id="textoLogo">Células e Azeitonas</p>
+            </div>
 
             <!--navbar-->
-            <ul class = "navbar">
-                <li class="itens_menu"><a href="./index.html">Projeto</a></li>
-                <li class="itens_menu"><a href="./azeitona.html">Sobre a azeitona</a></li>
-                <li class="itens_menu"><a href="./equipe.html">Equipe</a></li>
-    
-            </ul>
+            <div id="div_navbar">
+                <ul class = "navbar">
+                    <li><a class="itens_menu" href="./index.html">Projeto</a></li>
+                    <li><a class="itens_menu" href="./azeitona.html">Sobre a azeitona</a></li>
+                    <li><a class="itens_menu" href="./equipe.html">Equipe</a></li>
+                </ul>
+            </div>
         </div>
     </header>
 
     <main>
-        <ul>Integrantes
-            <li>Alana Rodrigues de Sousa</li>
-            <li>Sofia Koharu Camargo Yamazi</li>
-            <li>Suzana Rocha Silva</li>
-        </ul>
-        <ul>Email
-            <li>Alana Rodrigues: alana.s@aluno.ifsp.edu.br</li>
-            <li>Sofia Yamazi: koharu.c@aluno.ifsp.edu.br</li>
-            <li>Suzana Silva: suzana.silva@aluno.ifsp.edu.br</li>
-        </ul>
-        <ul>Professores orientadores
-            <li>Ana Cristina Gobbo Cesar</li>
-            <li>Paulo Cesar Polastri</li>
-        </ul>
+        <div class="container">
+            
+            <!--parte do título-->
+            <div class="bloco_titulo">
+                <div id="bloco_texto_marca"><p id="texto_marca">🎓TRABALHO ESCOLAR DE BIOLOGIA🧬</p></div>
+                <h1>Sobre nossa equipe</h1>
+                <div id="identificacaoAlunas_div"><p id="identificacaoAlunas_p">Alunas: Alana-Sofia-Suzana • curso: 1° INFO</p></div>
+                <!--foto da equipe-->
+                <img class="fotoEquipe" src="" alt="foto da equipe">
+            </div>
+
+            <div>
+                <ul class="lista_integrantes"><h2>Integrantes</h2>
+                    <div class="caixaIndividual_integrante" id="imagem_alana"><li><img class="imagens_integrantes" src="../images/foto da Alana.jpeg" alt="foto da Alana">
+                    <legend>Alana Rodrigues de Sousa<br>Funções: maquete da célula e site</legend></li></div>
+
+                    <div class="caixaIndividual_integrante" id="imagem_sofia"><li><img class="imagens_integrantes" src="../images/foto da Sofia.jpeg" alt="foto da Sofia">
+                    <legend>Sofia Koharu Camargo Yamazi<br>Funções: pesquisa e site</legend></li></div>
+
+                    <div class="caixaIndividual_integrante" id="imagem_suzana"><li><img class="imagens_integrantes" src="" alt="foto da Suzana">
+                    <legend>Suzana Rocha Silva<br>Funções: site</legend></li></div>
+                </ul>
+            </div>
+
+            <div>
+                <ul><h2>Email</h2>
+                    <li class="lista_integrantes">Alana Rodrigues: alana.s@aluno.ifsp.edu.br</li>
+                    <li class="lista_integrantes">Sofia Yamazi: koharu.c@aluno.ifsp.edu.br</li>
+                    <li class="lista_integrantes">Suzana Silva: suzana.silva@aluno.ifsp.edu.br</li>
+                </ul>
+            </div>
+
+            <div>
+                <ul><h2>Professores orientadores</h2>
+                    <li class="lista_integrantes">Ana Cristina Gobbo Cesar</li>
+                    <li class="lista_integrantes">Paulo Cesar Polastri</li>
+                </ul>
+            </div>
+        </div>
     </main>
+
+
+    <footer>
+        <p>Trabalho concluído com sucesso. ! YAY ! 🌟 Feito por Alana Rodrigues, Sofia Koharu e Suzana Rocha.</p>
+    </footer>
     
 </body>
 </html>
